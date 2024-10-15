@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Kodchasan:wght@100;200;300;400;500;600;700&display=swap);
+
+/* GLOBAL */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000;
+  background-color: #fff;
+}
+
+/* HEADER */
+.site_logo_img {
+  object-fit: cover;
+  height: 70px;
+}
+
+.sitenav_list {
+  list-style: none;
+}
+
+.sitenav-link {
+  text-decoration: none;
+  font-family: "Bebas Neue", display;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* MAIN */
+
+/* HERO */
+.hero_content {
+  background-color: #41ff21;
+}
+
+.hero_heading {
+  font-size: 60px;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.hero_button {
+  color: #fff;
+}
+
+/* NEWS */
+.news_heading,
+.viloyatlar_heading {
+  font-size: 32px;
+  font-family: "Bebas Neue", display;
+}
+
+.news_list {
+  list-style: none;
+}
+
+.news_item_img {
+  object-fit: cover;
+}
+
+/* ASIDE */
+aside {
+  background-color: orange;
+}
+
+/* VILOYATLAR */
+.viloyatlar_list {
+  list-style: none;
+  font-family: "Bebas Neue", display;
+  font-size: 20px;
+  line-height: 2.5rem;
+}
+
+.viloyatlar_item {
+  text-transform: lowercase;
+}
+
+.viloyatlar_item a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* Obuna */
+.obuna {
+  background-color: rgba(43, 105, 164, 0.249);
+}
+
+.obuna_heading {
+  font-size: 50px;
+  font-family: "Bebas Neue", display;
+}
+
+.obuna_list {
+  list-style: none;
+}
+
+.obuna_item_img {
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+/* FOOTER */
+.site_footer {
+  background-color: #222;
+  color: white;
+}
+
+.site_footer .sitenav-link {
+  color: white;
+}
